@@ -1,0 +1,21 @@
+name: stl_canopy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - geopandas
+  - rasterio
+  - rasterstats
+  - shapely
+  - pygris
+  - matplotlib
+  - seaborn
+  - scipy
+  - numpy
+  - pandas
+  - ipumspy
+  - jupyterlab
+  - pip
+  - pip:
+    - ipumspy
